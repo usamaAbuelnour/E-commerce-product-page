@@ -16,3 +16,6 @@ You can specify the amount you wish to buy, and then add them to your cart
 You can also check your cart and empty it if you wish to
 
 ![alt text](./src/assets/screenshots/4.PNG)
+
+![alt text](./src/assets/screenshots/5.PNG)
+
