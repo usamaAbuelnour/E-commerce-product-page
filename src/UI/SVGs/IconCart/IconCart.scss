@@ -1,0 +1,11 @@
+.iconCart {
+    
+}
+
+.toolbar {
+    &:hover {
+        path {
+            fill: var(--very-dark-blue);
+        }
+    }
+}

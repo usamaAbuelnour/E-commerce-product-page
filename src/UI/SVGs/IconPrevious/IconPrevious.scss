@@ -1,0 +1,11 @@
+.iconPrevious {
+    // border: 1px solid green;
+    display: block;
+
+    &:hover {
+        path{
+            stroke: var(--main-color);
+        }
+    }
+
+}

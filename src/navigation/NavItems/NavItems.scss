@@ -1,0 +1,27 @@
+.navItems {
+	cursor: pointer;
+
+	@media (max-width: 991px) {
+		font-weight: bold;
+		div + div {
+			margin-top: 1.5em;
+		}
+	}
+	@media (min-width: 992px) {
+		color: var(--dark-grayish-blue);
+		display: flex;
+		justify-content: space-between;
+        flex: 0 1 100%;
+
+		div {
+            border-bottom: 3px solid transparent;
+            display: flex;
+            align-items: center;
+            padding: 2.5em 0;
+			&:hover {
+				color: black;
+                border-color: var(--main-color);
+			}
+		}
+	}
+}

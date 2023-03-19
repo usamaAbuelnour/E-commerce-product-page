@@ -1,0 +1,28 @@
+.app {
+  .container {
+    // border: 1px solid red;
+    width: 90%;
+    margin: auto;
+  }
+
+
+  @media (min-width: 992px) {
+    .hide {
+      display: none;
+    }
+    .wrapper {
+      // border: 3px dotted blue;
+      margin-top: 160px;
+      padding: 0 3em;
+      display: flex;
+      column-gap: 7%;
+    }
+  }
+  @media (max-width: 991px){
+    .hidee{
+      display: none;
+    }
+  }
+}
+
+

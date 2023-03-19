@@ -1,0 +1,117 @@
+.productBody {
+	// border: 2px dotted red;
+
+	
+
+	.company {
+		font-weight: bold;
+		color: var(--main-color);
+		letter-spacing: 0.1em;
+		font-size: (15rem / 16);
+	}
+
+	.heading {
+		line-height: 1.1;
+	}
+
+	.description {
+		color: var(--dark-grayish-blue);
+		line-height: 1.5;
+	}
+
+	.priceSet {
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+		column-gap: 1.3em;
+
+
+		.discount {
+			padding: 0.2em 0.5em;
+			color: var(--main-color);
+			background-color: var(--main-color-pale);
+			border-radius: 5px;
+		}
+		.priceBefore {
+			margin-left: auto;
+			color: var(--grayish-blue);
+		}
+	}
+
+	.controllers {
+		// border: 1px solid purple;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1em;
+		background-color: var(--light-grayish-blue);
+		border-radius: 0.5em;
+	}
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+        // border: 1px solid;
+    }
+
+
+    @media (max-width: 991px) {
+        .container{
+            & > * {
+                // border: 1px solid greenyellow;
+                margin: 1.2rem 0;
+            }
+        }
+    }
+
+	@media (min-width: 992px) {
+
+        // border: 2px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        .container {
+            // border: 1px solid;
+            flex: 0 1 80%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            row-gap: 1em;
+        }
+
+
+		.heading {
+			font-size: 2.5rem;
+		}
+
+		.priceSet {
+            flex-wrap: wrap;
+            row-gap: 0.8em;
+            
+            .priceBefore {
+                
+                width: 100%;
+                margin-top: 0.6em;
+            }
+		}
+
+        .controllers {
+            flex: 0 1 35%;
+        }
+
+        .footer {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+	}
+
+    @media (min-width: 1200px){
+        .heading{
+            font-size: 3rem;
+        }
+    }
+}

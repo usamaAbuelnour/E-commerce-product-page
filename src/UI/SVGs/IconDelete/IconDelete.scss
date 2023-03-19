@@ -1,0 +1,8 @@
+.iconDelete {
+    &:hover {
+        cursor: pointer;
+        path {
+            fill: var(--dark-grayish-blue)
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.button {
+    // border: 1px solid fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5em;
+    padding: 1em 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    @media (min-width: 992px) {
+        flex: 0 1 62%;
+    }
+}

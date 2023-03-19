@@ -1,0 +1,19 @@
+.lightBox {
+    // border: 3px solid;
+    position: absolute;
+    width: 35%;
+    top: 90px;
+    left: (50% - 14.5%);
+    z-index: 150;
+
+    .iconClose {
+        // border: 1px solid salmon;
+        display: flex;
+        justify-content: end;
+        padding: 1em 0.2em;
+    }
+}
+
+.close {
+    display: none;
+}

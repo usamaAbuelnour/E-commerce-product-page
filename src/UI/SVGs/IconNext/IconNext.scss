@@ -1,0 +1,9 @@
+.iconNext {
+    // border: 1px solid green;
+    display: block;
+    path{
+        &:hover {
+            stroke: var(--main-color);
+        }
+    }
+}

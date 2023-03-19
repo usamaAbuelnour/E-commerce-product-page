@@ -1,0 +1,14 @@
+.iconClose {
+    cursor: pointer;
+
+    &:hover{
+        path{
+            fill: var(--main-color);
+        }
+    }
+
+    path{
+        scale: 1.5;
+
+    }
+}

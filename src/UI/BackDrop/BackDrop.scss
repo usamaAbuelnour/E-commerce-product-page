@@ -1,0 +1,18 @@
+.backDrop {
+	position: fixed;
+	z-index: 150;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: -100%;
+
+	background-color: rgba(black, 75%);
+}
+
+.open {
+	left: 0;
+}
+
+.close {
+	left: -100%;
+}

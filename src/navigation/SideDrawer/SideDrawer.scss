@@ -1,0 +1,30 @@
+.sideDrawer {
+    // border: 1px solid blue;
+    position: fixed;
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    background-color: white;
+    z-index: 200;
+    padding: 1.5em 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    transition: left 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    & > * {
+        // border: 1px solid yellowgreen
+    }
+    
+}
+
+
+.open {
+    
+    left: 0;
+}
+
+.close {
+    left: -100%;
+}
