@@ -4,7 +4,7 @@
 
 # How it works 
 
-You can view the product gallery, by clicking on the main imgae
+You can view the product gallery, by clicking on the main image
 
 ![alt text](./src/assets/screenshots/2.PNG)
 
